@@ -9,7 +9,10 @@ const DOMAINS = [
 
 const REFERENCE_IDS = [
   "krom-linkage-success",
-  "krom-linkage-fail",
+  "linkage-success-but-not-registered",
+  "linkage-always-pending",
+  "linkage-response-not-success",
+  "linkage-gateway-404"
 ] as const;
 
 type NavMethod = "assign" | "replace";
